@@ -1,0 +1,12 @@
+# 敏感文件：绝对不能提交（含 API Key / token / 密码）
+.dashpw
+.ob_token
+data/
+*.tar.gz
+
+# 运行产物
+.venv/
+logs/
+__pycache__/
+*.pyc
+.DS_Store
